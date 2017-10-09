@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## Oyun ve PC Optimize Programı
 
-You can use the [editor on GitHub](https://github.com/pr0gramc2/pcoptimize/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Sorun yaşadığınız oyunlar mı var ? Bilgisayarınızdan tam performans mı alamıyorusunuz! İşte size özel programımız: [HEMEN İNDİR](https://github.com/pr0gramc2/pcoptimize/edit/master/README.md) programımızın oluşturulma süreci oyunlarda doğan FPS ve Ping problemleri ile oldu. Önce kendim ve arkadaşlarım için bir şeyler yapayım derken baktım ki 400 kişiden fazla insana ulaştı programım. İşte bu nedenle geliştirmeye devam ediyorum.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### PUBG , FORTNİTE , CS - GO FPS ve Ping problemini düzelttik
 
-### Markdown
+En son güncellemeyle birlikte artık bilgisayarınızdaki ram yiyen uygulamalarıda düzeltiyor. Temp klasörünüzü temiz tutuyor. Bunu bilgisayar başladığında yapmaya devam ediyor.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+En son güncelleme ile gelenler
 
-# Header 1
-## Header 2
-### Header 3
+1. PUBG Optimize eklendi.
+2. Fortnite Optimize eklendi.
+3. CS GO Optimize eklendi.
+4. Ping Optimize eklendi.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
 
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**YARDIM Sayfalarımız** 
+Aşağıdaki linklere tıklayarak aradığınız yardıma ulaşabilirsiniz.
+[Ping Optimizesi Nasıl Yapılır ?](https://github.com/pr0gramc2/pcoptimize/wiki/Ping-Optimize-Nasıl-Yapılır-%3F).
+[Ping Optimizesi Nasıl Yapılır ?](https://github.com/pr0gramc2/pcoptimize/wiki/Ping-Optimize-Nasıl-Yapılır-%3F).
+[Ping Optimizesi Nasıl Yapılır ?](https://github.com/pr0gramc2/pcoptimize/wiki/Ping-Optimize-Nasıl-Yapılır-%3F).
+[Ping Optimizesi Nasıl Yapılır ?](https://github.com/pr0gramc2/pcoptimize/wiki/Ping-Optimize-Nasıl-Yapılır-%3F).
+[Birebir yardım mı lazım ?](https://discord.gg/6aW39sU).
 
-### Jekyll Themes
+### Gereksiz Kod Bloklarını temizledik
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pr0gramc2/pcoptimize/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Bu gereksiz kod blokları vallahi beni yordu. Ama sonunda tertemiz oldu ve virüstotal.com gibi sitelerde 0(SIFIR) virüs sonucu alıyoruz.
 
-### Support or Contact
+### Bana destek olmak istermisin ?
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
