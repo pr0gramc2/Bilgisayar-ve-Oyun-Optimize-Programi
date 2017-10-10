@@ -1,6 +1,6 @@
 ## Oyun ve PC Optimize Programı
 
-Sorun yaşadığınız oyunlar mı var ? Bilgisayarınızdan tam performans mı alamıyorusunuz! İşte size özel programımız: [HEMEN İNDİR](https://github.com/pr0gramc2/pcoptimize/edit/master/README.md) programımızın oluşturulma süreci oyunlarda doğan FPS ve Ping problemleri ile oldu. Önce kendim ve arkadaşlarım için bir şeyler yapayım derken baktım ki 400 kişiden fazla insana ulaştı programım. İşte bu nedenle geliştirmeye devam ediyorum.
+Sorun yaşadığınız oyunlar mı var ? Bilgisayarınızdan tam performans mı alamıyorusunuz! İşte size özel programımız: [HEMEN İNDİR](https://github.com/pr0gramc2/pcoptimize/raw/master/PcOptimize.exe) programımızın oluşturulma süreci oyunlarda doğan FPS ve Ping problemleri ile oldu. Önce kendim ve arkadaşlarım için bir şeyler yapayım derken baktım ki 400 kişiden fazla insana ulaştı programım. İşte bu nedenle geliştirmeye devam ediyorum.
 
 ### PUBG , FORTNİTE , CS - GO FPS ve Ping problemini düzelttik
 
@@ -24,8 +24,8 @@ En son güncelleme ile gelenler
 
 ### Gereksiz Kod Bloklarını temizledik
 
-Bu gereksiz kod blokları vallahi beni yordu. Ama sonunda tertemiz oldu ve virüstotal.com gibi sitelerde 0(SIFIR) virüs sonucu alıyoruz.
+Bu gereksiz kod blokları vallahi beni yordu. Ama sonunda tertemiz oldu ve virüstotal.com gibi sitelerde 0(SIFIR) virüs sonucu alıyoruz.Virüs Total sonucu : [SONUÇ](https://www.virustotal.com/#/file/84489094dd31504be7ae668ee08cdb774db3217efa72cd18a090bb0278cecc97/detection)
 
 ### Bana destek olmak istermisin ?
 
-Bana bağış yapmak istermisin ? [İSTERİM](bynogame.com/uzayadami) Canlı Destek için [DİSCORD](https://discord.gg/6aW39sU) discorda gelip benimle konuşarak sorununu çözebilirsin.
+Bana bağış yapmak istermisin ? [İSTERİM](http://www.bynogame.com/uzayadami) Canlı Destek için [DİSCORD](https://discord.gg/6aW39sU) discorda gelip benimle konuşarak sorununu çözebilirsin.
