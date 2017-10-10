@@ -5,7 +5,11 @@ Sorun yaşadığınız oyunlar mı var ? Bilgisayarınızdan tam performans mı 
 ### PUBG , FORTNİTE , CS - GO FPS ve Ping problemini düzelttik
 
 En son güncellemeyle birlikte artık bilgisayarınızdaki ram yiyen uygulamalarıda düzeltiyor. Temp klasörünüzü temiz tutuyor. Bunu bilgisayar başladığında yapmaya devam ediyor.
+
+
+### Ekran Görüntüleri
 ![Image](https://i.hizliresim.com/jQ37rr.png)
+![Image](https://i.hizliresim.com/2E10Wq.png)
 
 
 ```markdown
@@ -15,11 +19,6 @@ En son güncelleme ile gelenler
 2. Fortnite Optimize eklendi.
 3. CS GO Optimize eklendi.
 4. Ping Optimize eklendi.
-
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 
@@ -29,4 +28,4 @@ Bu gereksiz kod blokları vallahi beni yordu. Ama sonunda tertemiz oldu ve virü
 
 ### Bana destek olmak istermisin ?
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Bana bağış yapmak istermisin ? [İSTERİM](bynogame.com/uzayadami) Canlı Destek için [DİSCORD](https://discord.gg/6aW39sU) discorda gelip benimle konuşarak sorununu çözebilirsin.
