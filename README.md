@@ -5,6 +5,7 @@ Sorun yaşadığınız oyunlar mı var ? Bilgisayarınızdan tam performans mı 
 ### PUBG , FORTNİTE , CS - GO FPS ve Ping problemini düzelttik
 
 En son güncellemeyle birlikte artık bilgisayarınızdaki ram yiyen uygulamalarıda düzeltiyor. Temp klasörünüzü temiz tutuyor. Bunu bilgisayar başladığında yapmaya devam ediyor.
+![Image](https://i.hizliresim.com/jQ37rr.png)
 
 
 ```markdown
@@ -21,13 +22,6 @@ En son güncelleme ile gelenler
 [Link](url) and ![Image](src)
 ```
 
-**YARDIM Sayfalarımız** 
-Aşağıdaki linklere tıklayarak aradığınız yardıma ulaşabilirsiniz.
-[Ping Optimizesi Nasıl Yapılır ?](https://github.com/pr0gramc2/pcoptimize/wiki/Ping-Optimize-Nasıl-Yapılır-%3F).
-[Ping Optimizesi Nasıl Yapılır ?](https://github.com/pr0gramc2/pcoptimize/wiki/Ping-Optimize-Nasıl-Yapılır-%3F).
-[Ping Optimizesi Nasıl Yapılır ?](https://github.com/pr0gramc2/pcoptimize/wiki/Ping-Optimize-Nasıl-Yapılır-%3F).
-[Ping Optimizesi Nasıl Yapılır ?](https://github.com/pr0gramc2/pcoptimize/wiki/Ping-Optimize-Nasıl-Yapılır-%3F).
-[Birebir yardım mı lazım ?](https://discord.gg/6aW39sU).
 
 ### Gereksiz Kod Bloklarını temizledik
 
