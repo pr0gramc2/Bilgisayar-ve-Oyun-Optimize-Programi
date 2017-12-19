@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.io/pr0gramc2/https://pr0gramc2.github.io/Bilgisayar-ve-Oyun-Optimize-Programi/.svg)](http://hits.dwyl.io/pr0gramc2/https://pr0gramc2.github.io/Bilgisayar-ve-Oyun-Optimize-Programi/)
+
 ## Oyun ve PC Optimize Programı
 
 Sorun yaşadığınız oyunlar mı var ? Bilgisayarınızdan tam performans mı alamıyorusunuz! İşte size özel programımız: [Güncel Takip İçin](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/releases) programımızın oluşturulma süreci oyunlarda doğan FPS ve Ping problemleri ile oldu. Önce kendim ve arkadaşlarım için bir şeyler yapayım derken baktım ki 2000 kişiden fazla insana ulaştı programım. İşte bu nedenle geliştirmeye devam ediyorum. Biraz süreç alıyor ama desteklerinizi esirgemeyin arkadaşlar. Artık Uygulama veya Oyun Farketmeksizin Ram Cache temizliyor. Windows gereksiz uygulamaları kapatıyor. Size iyi bir performans sunmayı hedefliyorum.
@@ -27,6 +29,8 @@ Program Konusunda Hedeflerim
 3. Oyuncuların birbirleri ile iletişiminin Artışı
 4. Olası bağlantı hatalarını ve render problemlerini düzeltmek.
 ```
+
+## Geliştiriciler [![Geliştiriciler Selam](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/issues)
 
 ### Gereksiz Kod Bloklarını temizledik
 
