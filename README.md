@@ -1,3 +1,4 @@
+[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi)
 [![HitCount](http://hits.dwyl.io/pr0gramc2/https://pr0gramc2.github.io/Bilgisayar-ve-Oyun-Optimize-Programi/.svg)](http://hits.dwyl.io/pr0gramc2/https://pr0gramc2.github.io/Bilgisayar-ve-Oyun-Optimize-Programi/)
 
 ## Oyun ve PC Optimize Programı
