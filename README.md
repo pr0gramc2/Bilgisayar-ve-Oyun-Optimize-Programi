@@ -1,4 +1,3 @@
-[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi)
 [![HitCount](http://hits.dwyl.io/pr0gramc2/https://pr0gramc2.github.io/Bilgisayar-ve-Oyun-Optimize-Programi/.svg)](http://hits.dwyl.io/pr0gramc2/https://pr0gramc2.github.io/Bilgisayar-ve-Oyun-Optimize-Programi/)
 
 ## Oyun ve PC Optimize Programı
@@ -40,3 +39,4 @@ Bu gereksiz kod blokları vallahi beni yordu. Ama sonunda tertemiz oldu ve virü
 ### Bana destek olmak istermisin ?
 
 Bana bağış yapmak istermisin ? [İSTERİM](http://www.bynogame.com/uzayadami) Canlı Destek için [DİSCORD](https://discord.gg/2WVN5Gt) discorda gelip benimle konuşarak sorununu çözebilirsin.
+[![Read the Docs](https://img.shields.io/readthedocs/pip.svg)](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/wiki)
