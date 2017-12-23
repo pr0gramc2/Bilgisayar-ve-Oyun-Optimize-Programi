@@ -1,8 +1,9 @@
 [![HitCount](http://hits.dwyl.io/pr0gramc2/https://pr0gramc2.github.io/Bilgisayar-ve-Oyun-Optimize-Programi/.svg)](http://hits.dwyl.io/pr0gramc2/https://pr0gramc2.github.io/Bilgisayar-ve-Oyun-Optimize-Programi/)
 
 ## Oyun ve PC Optimize Programı
+[![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi)
 
-Sorun yaşadığınız oyunlar mı var ? Bilgisayarınızdan tam performans mı alamıyorusunuz! İşte size özel programımız: [Güncel Takip İçin](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/releases) programımızın oluşturulma süreci oyunlarda doğan FPS ve Ping problemleri ile oldu. Önce kendim ve arkadaşlarım için bir şeyler yapayım derken baktım ki 2000 kişiden fazla insana ulaştı programım. İşte bu nedenle geliştirmeye devam ediyorum. Biraz süreç alıyor ama desteklerinizi esirgemeyin arkadaşlar. Artık Uygulama veya Oyun Farketmeksizin Ram Cache temizliyor. Windows gereksiz uygulamaları kapatıyor. Size iyi bir performans sunmayı hedefliyorum.
+Sorun yaşadığınız oyunlar mı var ? Bilgisayarınızdan tam performans mı alamıyorusunuz! İşte size özel programımız: [Güncel Takip İçin](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/releases) programımızın oluşturulma süreci oyunlarda doğan FPS ve Ping problemleri ile oldu. Önce kendim ve arkadaşlarım için bir şeyler yapayım derken baktım ki 3000[![Github Pre-Releases](https://img.shields.io/github/downloads-pre/atom/atom/latest/total.svg)](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/) kişiden fazla insana ulaştı programım. İşte bu nedenle geliştirmeye devam ediyorum. Biraz süreç alıyor ama desteklerinizi esirgemeyin arkadaşlar. Artık Uygulama veya Oyun Farketmeksizin Ram Cache temizliyor. Windows gereksiz uygulamaları kapatıyor. Size iyi bir performans sunmayı hedefliyorum.
 
 ### PUBG , CS - GO , GTA 5 , H1Z1 FPS ve Ping problemini düzelttik
 
