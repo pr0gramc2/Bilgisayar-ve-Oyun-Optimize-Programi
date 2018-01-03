@@ -11,11 +11,11 @@ En son güncellemeyle birlikte artık bilgisayarınızdaki ram yiyen uygulamalar
 
 
 ### Ekran Görüntüleri Başlangıçta
-![Image](https://i.hizliresim.com/jQ37rr.png)
+![Image](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/blob/master/eskisurum.png)
 ![Image](https://i.hizliresim.com/2E10Wq.png)
 
 ### Son Güncelleme ile 
-![Image](https://i.hizliresim.com/XEAlPR.png)
+![Image](https://raw.githubusercontent.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/master/sonhali.png
 
 ### Program Dünden Bügüne Video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=XFSNZOFlS1w
