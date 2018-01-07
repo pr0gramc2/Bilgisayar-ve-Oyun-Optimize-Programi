@@ -15,7 +15,7 @@ En son güncellemeyle birlikte artık bilgisayarınızdaki ram yiyen uygulamalar
 ![Image](https://i.hizliresim.com/2E10Wq.png)
 
 ### Son Güncelleme ile 
-![Image](https://raw.githubusercontent.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/master/sonhali.png)
+![Image](https://raw.githubusercontent.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/master/Screenshot_1.png)
 
 ### Program Dünden Bügüne Video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=XFSNZOFlS1w
