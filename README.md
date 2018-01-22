@@ -5,15 +5,18 @@
 
 Sorun yaşadığınız oyunlar mı var ? Bilgisayarınızdan tam performans mı alamıyorusunuz! İşte size özel programımız: [Güncel Takip İçin](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/releases) programımızın oluşturulma süreci oyunlarda doğan FPS ve Ping problemleri ile oldu. Önce kendim ve arkadaşlarım için bir şeyler yapayım derken baktım ki [![Github Pre-Releases](https://img.shields.io/github/downloads-pre/atom/atom/latest/total.svg)](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/releases) kişiden fazla insana ulaştı programım. İşte bu nedenle geliştirmeye devam ediyorum. Biraz süreç alıyor ama desteklerinizi esirgemeyin arkadaşlar. Artık Uygulama veya Oyun Farketmeksizin Ram Cache temizliyor. Windows gereksiz uygulamaları kapatıyor. Size iyi bir performans sunmayı hedefliyorum.
 
+
+
 ### PUBG , CS - GO , GTA 5 , H1Z1 ve daha bir çok oyun için FPS ve Ping problemini düzelttik
 
 En son güncellemeyle birlikte artık bilgisayarınızdaki ram yiyen uygulamalarıda düzeltiyor. Temp klasörünüzü temiz tutuyor. Bunu bilgisayar başladığında yapmaya devam ediyor. Daha bir çok özellik hemide ücretsiz kardeşlerim. Çünkü bir hayalim var. Bu program kar elde ederse bu kar şehit ailelerine yardım için bağışlanacak.
 
 
+![Image](https://i.hizliresim.com/4akgQA.png)
 ## Biz FPS Artışını Nasıl Sağlıyoruz ?
 Bilgisayarınızın performansını en üst düzeye çıkarıyoruz. Gereksiz performans kaybını önlüyor. Bilgisayarınızı en iyi şekilde soğutup hızlandırıyoruz. Ayrıca NVDİA gibi markaların oyunlara özel profil oluşturup performans farkı yaratması gibi bizlerde oyunlarınız için Ekran kartı tabanlı değil oyun motoru tabanlı profiller çıkarıyoruz. Uygulamadaki optimize et seçeneği ile bunları aktif hale getiriyoruz. Oyunlarınızı program üzerinden başlattığınız taktirde Özel başlangıç ayarları ile Tüm çekirdeklerinizi oyuna ayırıyoruz ayrıca gereksiz ram kullanımın önüne geçiyoruz ve bam bam bam. FPS ve Performansda artış.
 
-
+![Image](https://i.hizliresim.com/2E10Wq.png)
 ### Ekran Görüntüleri Başlangıçta
 ![Image](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/blob/master/eskisurum.png)
 ![Image](https://i.hizliresim.com/2E10Wq.png)
@@ -34,7 +37,7 @@ Program Konusunda Hedeflerim
 3. Oyuncuların birbirleri ile iletişiminin Artışı
 4. Olası bağlantı hatalarını ve render problemlerini düzeltmek.
 ```
-
+![Image](https://i.hizliresim.com/0EkqgZ.png)
 ## Bize destek olanlar bizden bahsedenler [![Geliştiriciler Selam](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/issues)
 
 ### Virüs Tarama Testleri / Malware Tarama Sonuçları
@@ -49,3 +52,4 @@ Sorunlar için wiki sayfamıza bakabilirsin. Ayrıca wiki sayfamızda olmayan so
 
 Bana bağış yapmak istermisin ? [İSTERİM](http://www.bynogame.com/uzayadami) Canlı Destek için [DİSCORD](https://discord.gg/2WVN5Gt) discorda gelip benimle konuşarak sorununu çözebilirsin.
 
+![Image](https://i.hizliresim.com/A1qmNv.png)
