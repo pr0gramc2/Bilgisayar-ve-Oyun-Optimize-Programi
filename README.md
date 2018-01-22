@@ -16,7 +16,7 @@ En son güncellemeyle birlikte artık bilgisayarınızdaki ram yiyen uygulamalar
 ## Biz FPS Artışını Nasıl Sağlıyoruz ?
 Bilgisayarınızın performansını en üst düzeye çıkarıyoruz. Gereksiz performans kaybını önlüyor. Bilgisayarınızı en iyi şekilde soğutup hızlandırıyoruz. Ayrıca NVDİA gibi markaların oyunlara özel profil oluşturup performans farkı yaratması gibi bizlerde oyunlarınız için Ekran kartı tabanlı değil oyun motoru tabanlı profiller çıkarıyoruz. Uygulamadaki optimize et seçeneği ile bunları aktif hale getiriyoruz. Oyunlarınızı program üzerinden başlattığınız taktirde Özel başlangıç ayarları ile Tüm çekirdeklerinizi oyuna ayırıyoruz ayrıca gereksiz ram kullanımın önüne geçiyoruz ve bam bam bam. FPS ve Performansda artış.
 
-![Image](https://i.hizliresim.com/2E10Wq.png)
+![Image](https://i.hizliresim.com/MdyEA9.png)
 ### Ekran Görüntüleri Başlangıçta
 ![Image](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/blob/master/eskisurum.png)
 ![Image](https://i.hizliresim.com/2E10Wq.png)
@@ -40,10 +40,11 @@ Program Konusunda Hedeflerim
 ![Image](https://i.hizliresim.com/0EkqgZ.png)
 ## Bize destek olanlar bizden bahsedenler [![Geliştiriciler Selam](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/issues)
 
+![Image](https://i.hizliresim.com/kOgkz9.png)
 ### Virüs Tarama Testleri / Malware Tarama Sonuçları
 
 Bu gereksiz kod blokları vallahi beni yordu. Ama sonunda tertemiz oldu ve virüstotal.com gibi sitelerde 0(SIFIR) virüs sonucu alıyoruz.Virüs Total sonucu : [SONUÇ](https://www.virustotal.com/#/file/84489094dd31504be7ae668ee08cdb774db3217efa72cd18a090bb0278cecc97/detection)
-
+![Image](https://i.hizliresim.com/1JkyO5.png)
 ### Bir Sorunla karşılaştım !
 [![Read the Docs](https://img.shields.io/readthedocs/pip.svg)](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/wiki)
 Sorunlar için wiki sayfamıza bakabilirsin. Ayrıca wiki sayfamızda olmayan sonuçlar için discord veya bana mail atabilirsin. Mail adresim programc4@gmail.com
