@@ -44,6 +44,8 @@ Program Konusunda Hedeflerim
 ### Virüs Tarama Testleri / Malware Tarama Sonuçları
 
 Bu gereksiz kod blokları vallahi beni yordu. Ama sonunda tertemiz oldu ve virüstotal.com gibi sitelerde 0(SIFIR) virüs sonucu alıyoruz.Virüs Total sonucu : [SONUÇ](https://www.virustotal.com/#/file/84489094dd31504be7ae668ee08cdb774db3217efa72cd18a090bb0278cecc97/detection)
+
+
 ![Image](https://i.hizliresim.com/1JkyO5.png)
 ### Bir Sorunla karşılaştım !
 [![Read the Docs](https://img.shields.io/readthedocs/pip.svg)](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/wiki)
