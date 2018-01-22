@@ -50,6 +50,7 @@ Bu gereksiz kod blokları vallahi beni yordu. Ama sonunda tertemiz oldu ve virü
 ### Bir Sorunla karşılaştım !
 [![Read the Docs](https://img.shields.io/readthedocs/pip.svg)](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/wiki)
 Sorunlar için wiki sayfamıza bakabilirsin. Ayrıca wiki sayfamızda olmayan sonuçlar için discord veya bana mail atabilirsin. Mail adresim programc4@gmail.com
+[![Discord](https://img.shields.io/discord/102860784329052160.svg)](https://discord.gg/2WVN5Gt)
 
 ### Bana destek olmak istermisin ?
 
