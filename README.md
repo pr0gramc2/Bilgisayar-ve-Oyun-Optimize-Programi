@@ -17,12 +17,12 @@ En son güncellemeyle birlikte artık bilgisayarınızdaki ram yiyen uygulamalar
 Bilgisayarınızın performansını en üst düzeye çıkarıyoruz. Gereksiz performans kaybını önlüyor. Bilgisayarınızı en iyi şekilde soğutup hızlandırıyoruz. Ayrıca NVDİA gibi markaların oyunlara özel profil oluşturup performans farkı yaratması gibi bizlerde oyunlarınız için Ekran kartı tabanlı değil oyun motoru tabanlı profiller çıkarıyoruz. Uygulamadaki optimize et seçeneği ile bunları aktif hale getiriyoruz. Oyunlarınızı program üzerinden başlattığınız taktirde Özel başlangıç ayarları ile Tüm çekirdeklerinizi oyuna ayırıyoruz ayrıca gereksiz ram kullanımın önüne geçiyoruz ve bam bam bam. FPS ve Performansda artış.
 
 ![Image](https://i.hizliresim.com/MdyEA9.png)
-### Ekran Görüntüleri Başlangıçta
-![Image](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/blob/master/eskisurum.png)
 ![Image](https://i.hizliresim.com/2E10Wq.png)
+![Image](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/blob/master/Screenshot_3.png)
+
 
 ### Son Güncelleme ile 
-![Image](https://raw.githubusercontent.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/master/Screenshot_1.png)
+![Image](https://i.hizliresim.com/JQ4gP5.png)
 
 ### Program Dünden Bügüne Video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=XFSNZOFlS1w
