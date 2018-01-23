@@ -36,11 +36,17 @@ Program Konusunda Hedeflerim
 2. Bilgisayar Optimizesi ve Performans Artışı.
 3. Oyuncuların birbirleri ile iletişiminin Artışı
 4. Olası bağlantı hatalarını ve render problemlerini düzeltmek.
+5. Sehit Ailelerine Destek Olmak
 ```
 ![Image](https://i.hizliresim.com/0EkqgZ.png)
+
 ## Bize destek olanlar bizden bahsedenler [![Geliştiriciler Selam](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/pr0gramc2/Bilgisayar-ve-Oyun-Optimize-Programi/issues)
 
+Thatsgamebro.com
+Steam
+
 ![Image](https://i.hizliresim.com/kOgkz9.png)
+
 ### Virüs Tarama Testleri / Malware Tarama Sonuçları
 
 Bu gereksiz kod blokları vallahi beni yordu. Ama sonunda tertemiz oldu ve virüstotal.com gibi sitelerde 0(SIFIR) virüs sonucu alıyoruz.Virüs Total sonucu : [SONUÇ](https://www.virustotal.com/#/file/84489094dd31504be7ae668ee08cdb774db3217efa72cd18a090bb0278cecc97/detection)
@@ -56,4 +62,4 @@ Sorunlar için wiki sayfamıza bakabilirsin. Ayrıca wiki sayfamızda olmayan so
 
 Bana bağış yapmak istermisin ? [İSTERİM](http://www.bynogame.com/uzayadami) Canlı Destek için [DİSCORD](https://discord.gg/2WVN5Gt) discorda gelip benimle konuşarak sorununu çözebilirsin.
 
-![Image](https://i.hizliresim.com/A1qmNv.png)
+
