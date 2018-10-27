@@ -8,12 +8,12 @@ Imports System.Runtime.InteropServices
 
 ' Bütünleştirilmiş kod özniteliklerinin değerlerini gözden geçirin
 
-<Assembly: AssemblyTitle("PcOptimize_v2")>
-<Assembly: AssemblyDescription("Bilgisayarınıza iyi bakarız!")>
+<Assembly: AssemblyTitle("SLight Optimize")>
+<Assembly: AssemblyDescription("Safe your computer and for performance booster")>
 <Assembly: AssemblyCompany("Pr0gramc2")>
 <Assembly: AssemblyProduct("PcOptimize_v2")>
-<Assembly: AssemblyCopyright("Github.com/Pr0gramc2 Copyright ©  2018")>
-<Assembly: AssemblyTrademark("Github.com/Pr0gramc2 Copyright ©  2018")>
+<Assembly: AssemblyCopyright("github.com/ssilistre")>
+<Assembly: AssemblyTrademark("github.com/ssilistre")>
 
 <Assembly: ComVisible(False)>
 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' '*' kullanarak varsayılana ayarlayabilirsiniz:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.3.0.0")>
-<Assembly: AssemblyFileVersion("1.3.0.0")>
+<Assembly: AssemblyVersion("2.0.0.0")>
+<Assembly: AssemblyFileVersion("2.0.0.0")>
