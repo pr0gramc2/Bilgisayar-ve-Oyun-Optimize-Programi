@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Main_Frm
     Inherits MetroFramework.Forms.MetroForm
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Main_Frm
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.MetroCheckBox1 = New MetroFramework.Controls.MetroCheckBox()
         Me.MetroCheckBox2 = New MetroFramework.Controls.MetroCheckBox()
@@ -29,7 +29,9 @@ Partial Class Main_Frm
         Me.MetroCheckBox5 = New MetroFramework.Controls.MetroCheckBox()
         Me.MetroCheckBox6 = New MetroFramework.Controls.MetroCheckBox()
         Me.MetroCheckBox7 = New MetroFramework.Controls.MetroCheckBox()
-        Me.MetroCheckBox8 = New MetroFramework.Controls.MetroCheckBox()
+        Me.chkbox = New MetroFramework.Controls.MetroCheckBox()
+        Me.tbOutput = New MetroFramework.Controls.MetroTextBox()
+        Me.lbGames = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
         'MetroCheckBox1
@@ -123,26 +125,68 @@ Partial Class Main_Frm
         Me.MetroCheckBox7.Theme = MetroFramework.MetroThemeStyle.Dark
         Me.MetroCheckBox7.UseSelectable = True
         '
-        'MetroCheckBox8
+        'chkbox
         '
-        Me.MetroCheckBox8.AutoSize = True
-        Me.MetroCheckBox8.FontSize = MetroFramework.MetroCheckBoxSize.Medium
-        Me.MetroCheckBox8.FontWeight = MetroFramework.MetroCheckBoxWeight.Bold
-        Me.MetroCheckBox8.Location = New System.Drawing.Point(215, 170)
-        Me.MetroCheckBox8.Name = "MetroCheckBox8"
-        Me.MetroCheckBox8.Size = New System.Drawing.Size(145, 20)
-        Me.MetroCheckBox8.TabIndex = 0
-        Me.MetroCheckBox8.Text = "MetroCheckBox1"
-        Me.MetroCheckBox8.Theme = MetroFramework.MetroThemeStyle.Dark
-        Me.MetroCheckBox8.UseSelectable = True
+        Me.chkbox.AutoSize = True
+        Me.chkbox.FontSize = MetroFramework.MetroCheckBoxSize.Medium
+        Me.chkbox.FontWeight = MetroFramework.MetroCheckBoxWeight.Bold
+        Me.chkbox.Location = New System.Drawing.Point(215, 170)
+        Me.chkbox.Name = "chkbox"
+        Me.chkbox.Size = New System.Drawing.Size(145, 20)
+        Me.chkbox.TabIndex = 0
+        Me.chkbox.Text = "MetroCheckBox1"
+        Me.chkbox.Theme = MetroFramework.MetroThemeStyle.Dark
+        Me.chkbox.UseSelectable = True
+        '
+        'tbOutput
+        '
+        '
+        '
+        '
+        Me.tbOutput.CustomButton.Image = Nothing
+        Me.tbOutput.CustomButton.Location = New System.Drawing.Point(528, 2)
+        Me.tbOutput.CustomButton.Name = ""
+        Me.tbOutput.CustomButton.Size = New System.Drawing.Size(21, 21)
+        Me.tbOutput.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
+        Me.tbOutput.CustomButton.TabIndex = 1
+        Me.tbOutput.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
+        Me.tbOutput.CustomButton.UseSelectable = True
+        Me.tbOutput.CustomButton.Visible = False
+        Me.tbOutput.Lines = New String() {"MetroTextBox1"}
+        Me.tbOutput.Location = New System.Drawing.Point(12, 254)
+        Me.tbOutput.MaxLength = 32767
+        Me.tbOutput.Name = "tbOutput"
+        Me.tbOutput.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.tbOutput.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.tbOutput.SelectedText = ""
+        Me.tbOutput.SelectionLength = 0
+        Me.tbOutput.SelectionStart = 0
+        Me.tbOutput.ShortcutsEnabled = True
+        Me.tbOutput.Size = New System.Drawing.Size(552, 26)
+        Me.tbOutput.TabIndex = 1
+        Me.tbOutput.Text = "MetroTextBox1"
+        Me.tbOutput.UseSelectable = True
+        Me.tbOutput.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.tbOutput.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
+        '
+        'lbGames
+        '
+        Me.lbGames.FormattingEnabled = True
+        Me.lbGames.ItemHeight = 16
+        Me.lbGames.Location = New System.Drawing.Point(23, 342)
+        Me.lbGames.Name = "lbGames"
+        Me.lbGames.Size = New System.Drawing.Size(394, 116)
+        Me.lbGames.TabIndex = 2
         '
         'Main_Frm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(733, 568)
+        Me.ClientSize = New System.Drawing.Size(668, 529)
+        Me.Controls.Add(Me.lbGames)
+        Me.Controls.Add(Me.tbOutput)
         Me.Controls.Add(Me.MetroCheckBox5)
-        Me.Controls.Add(Me.MetroCheckBox8)
+        Me.Controls.Add(Me.chkbox)
         Me.Controls.Add(Me.MetroCheckBox4)
         Me.Controls.Add(Me.MetroCheckBox7)
         Me.Controls.Add(Me.MetroCheckBox3)
@@ -164,5 +208,7 @@ Partial Class Main_Frm
     Friend WithEvents MetroCheckBox5 As MetroFramework.Controls.MetroCheckBox
     Friend WithEvents MetroCheckBox6 As MetroFramework.Controls.MetroCheckBox
     Friend WithEvents MetroCheckBox7 As MetroFramework.Controls.MetroCheckBox
-    Friend WithEvents MetroCheckBox8 As MetroFramework.Controls.MetroCheckBox
+    Friend WithEvents chkbox As MetroFramework.Controls.MetroCheckBox
+    Friend WithEvents tbOutput As MetroFramework.Controls.MetroTextBox
+    Friend WithEvents lbGames As ListBox
 End Class
