@@ -28,3 +28,4 @@ D:\GithubRepo\Bg\PcOptimize_v2\PcOptimize_v2\obj\Debug\PcOptimize_v2.vbproj.Copy
 D:\GithubRepo\Bg\PcOptimize_v2\PcOptimize_v2\obj\Debug\PcOptimize_v2.exe
 D:\GithubRepo\Bg\PcOptimize_v2\PcOptimize_v2\obj\Debug\PcOptimize_v2.xml
 D:\GithubRepo\Bg\PcOptimize_v2\PcOptimize_v2\obj\Debug\PcOptimize_v2.pdb
+D:\GithubRepo\Bg\PcOptimize_v2\PcOptimize_v2\obj\Debug\PcOptimize_v2.EkranPerformans.resources

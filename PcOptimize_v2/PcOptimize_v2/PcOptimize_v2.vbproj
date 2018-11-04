@@ -108,6 +108,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="EkranPerformans.Designer.vb">
+      <DependentUpon>EkranPerformans.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EkranPerformans.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Main_Frm.Designer.vb">
       <DependentUpon>Main_Frm.vb</DependentUpon>
     </Compile>
@@ -131,6 +137,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="EkranPerformans.resx">
+      <DependentUpon>EkranPerformans.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main_Frm.resx">
       <DependentUpon>Main_Frm.vb</DependentUpon>
     </EmbeddedResource>

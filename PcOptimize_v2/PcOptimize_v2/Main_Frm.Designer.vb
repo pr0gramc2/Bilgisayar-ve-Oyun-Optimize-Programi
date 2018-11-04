@@ -22,193 +22,290 @@ Partial Class Main_Frm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.MetroCheckBox1 = New MetroFramework.Controls.MetroCheckBox()
-        Me.MetroCheckBox2 = New MetroFramework.Controls.MetroCheckBox()
-        Me.MetroCheckBox3 = New MetroFramework.Controls.MetroCheckBox()
-        Me.MetroCheckBox4 = New MetroFramework.Controls.MetroCheckBox()
-        Me.MetroCheckBox5 = New MetroFramework.Controls.MetroCheckBox()
-        Me.MetroCheckBox6 = New MetroFramework.Controls.MetroCheckBox()
-        Me.MetroCheckBox7 = New MetroFramework.Controls.MetroCheckBox()
-        Me.chkbox = New MetroFramework.Controls.MetroCheckBox()
-        Me.tbOutput = New MetroFramework.Controls.MetroTextBox()
+        Me.components = New System.ComponentModel.Container()
+        Me.ChbBestPerformence = New MetroFramework.Controls.MetroCheckBox()
+        Me.chbWebtarayıcısı = New MetroFramework.Controls.MetroCheckBox()
+        Me.chbDetayliTemizlik = New MetroFramework.Controls.MetroCheckBox()
+        Me.chbwebayarlari = New MetroFramework.Controls.MetroCheckBox()
+        Me.chbDnstemizle = New MetroFramework.Controls.MetroCheckBox()
+        Me.chbgereksizonbellek = New MetroFramework.Controls.MetroCheckBox()
+        Me.chbPerformansmod = New MetroFramework.Controls.MetroCheckBox()
+        Me.chbKucukEkran = New MetroFramework.Controls.MetroCheckBox()
         Me.lbGames = New System.Windows.Forms.ListBox()
+        Me.DetayliTemizlik = New System.Windows.Forms.Timer(Me.components)
+        Me.rtbNews = New System.Windows.Forms.RichTextBox()
+        Me.tbOutput = New System.Windows.Forms.TextBox()
+        Me.btnTemizle = New MetroFramework.Controls.MetroButton()
+        Me.webtariyicioptimize = New System.Windows.Forms.Timer(Me.components)
+        Me.BtnOptimize = New MetroFramework.Controls.MetroButton()
+        Me.oyunekle = New System.Windows.Forms.OpenFileDialog()
+        Me.LblBaslik = New MetroFramework.Controls.MetroLabel()
+        Me.btnBaslat = New MetroFramework.Controls.MetroButton()
+        Me.btnOptimizeEt = New MetroFramework.Controls.MetroButton()
+        Me.internetvericekme = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
-        'MetroCheckBox1
+        'ChbBestPerformence
         '
-        Me.MetroCheckBox1.AutoSize = True
-        Me.MetroCheckBox1.FontSize = MetroFramework.MetroCheckBoxSize.Medium
-        Me.MetroCheckBox1.FontWeight = MetroFramework.MetroCheckBoxWeight.Bold
-        Me.MetroCheckBox1.Location = New System.Drawing.Point(12, 92)
-        Me.MetroCheckBox1.Name = "MetroCheckBox1"
-        Me.MetroCheckBox1.Size = New System.Drawing.Size(145, 20)
-        Me.MetroCheckBox1.TabIndex = 0
-        Me.MetroCheckBox1.Text = "MetroCheckBox1"
-        Me.MetroCheckBox1.Theme = MetroFramework.MetroThemeStyle.Dark
-        Me.MetroCheckBox1.UseSelectable = True
+        Me.ChbBestPerformence.AutoSize = True
+        Me.ChbBestPerformence.FontSize = MetroFramework.MetroCheckBoxSize.Medium
+        Me.ChbBestPerformence.Location = New System.Drawing.Point(12, 63)
+        Me.ChbBestPerformence.Name = "ChbBestPerformence"
+        Me.ChbBestPerformence.Size = New System.Drawing.Size(200, 20)
+        Me.ChbBestPerformence.TabIndex = 1
+        Me.ChbBestPerformence.Text = "Performans Ayarını İyileştir"
+        Me.ChbBestPerformence.Theme = MetroFramework.MetroThemeStyle.Dark
+        Me.ChbBestPerformence.UseSelectable = True
         '
-        'MetroCheckBox2
+        'chbWebtarayıcısı
         '
-        Me.MetroCheckBox2.AutoSize = True
-        Me.MetroCheckBox2.FontSize = MetroFramework.MetroCheckBoxSize.Medium
-        Me.MetroCheckBox2.FontWeight = MetroFramework.MetroCheckBoxWeight.Bold
-        Me.MetroCheckBox2.Location = New System.Drawing.Point(12, 118)
-        Me.MetroCheckBox2.Name = "MetroCheckBox2"
-        Me.MetroCheckBox2.Size = New System.Drawing.Size(145, 20)
-        Me.MetroCheckBox2.TabIndex = 0
-        Me.MetroCheckBox2.Text = "MetroCheckBox1"
-        Me.MetroCheckBox2.Theme = MetroFramework.MetroThemeStyle.Dark
-        Me.MetroCheckBox2.UseSelectable = True
+        Me.chbWebtarayıcısı.AutoSize = True
+        Me.chbWebtarayıcısı.FontSize = MetroFramework.MetroCheckBoxSize.Medium
+        Me.chbWebtarayıcısı.Location = New System.Drawing.Point(12, 89)
+        Me.chbWebtarayıcısı.Name = "chbWebtarayıcısı"
+        Me.chbWebtarayıcısı.Size = New System.Drawing.Size(212, 20)
+        Me.chbWebtarayıcısı.TabIndex = 2
+        Me.chbWebtarayıcısı.Text = "Web Tarayıcısını Optimize Et"
+        Me.chbWebtarayıcısı.Theme = MetroFramework.MetroThemeStyle.Dark
+        Me.chbWebtarayıcısı.UseSelectable = True
         '
-        'MetroCheckBox3
+        'chbDetayliTemizlik
         '
-        Me.MetroCheckBox3.AutoSize = True
-        Me.MetroCheckBox3.FontSize = MetroFramework.MetroCheckBoxSize.Medium
-        Me.MetroCheckBox3.FontWeight = MetroFramework.MetroCheckBoxWeight.Bold
-        Me.MetroCheckBox3.Location = New System.Drawing.Point(12, 144)
-        Me.MetroCheckBox3.Name = "MetroCheckBox3"
-        Me.MetroCheckBox3.Size = New System.Drawing.Size(145, 20)
-        Me.MetroCheckBox3.TabIndex = 0
-        Me.MetroCheckBox3.Text = "MetroCheckBox1"
-        Me.MetroCheckBox3.Theme = MetroFramework.MetroThemeStyle.Dark
-        Me.MetroCheckBox3.UseSelectable = True
+        Me.chbDetayliTemizlik.AutoSize = True
+        Me.chbDetayliTemizlik.FontSize = MetroFramework.MetroCheckBoxSize.Medium
+        Me.chbDetayliTemizlik.Location = New System.Drawing.Point(12, 141)
+        Me.chbDetayliTemizlik.Name = "chbDetayliTemizlik"
+        Me.chbDetayliTemizlik.Size = New System.Drawing.Size(127, 20)
+        Me.chbDetayliTemizlik.TabIndex = 4
+        Me.chbDetayliTemizlik.Text = "Sürekli Temizlik"
+        Me.chbDetayliTemizlik.Theme = MetroFramework.MetroThemeStyle.Dark
+        Me.chbDetayliTemizlik.UseSelectable = True
         '
-        'MetroCheckBox4
+        'chbwebayarlari
         '
-        Me.MetroCheckBox4.AutoSize = True
-        Me.MetroCheckBox4.FontSize = MetroFramework.MetroCheckBoxSize.Medium
-        Me.MetroCheckBox4.FontWeight = MetroFramework.MetroCheckBoxWeight.Bold
-        Me.MetroCheckBox4.Location = New System.Drawing.Point(12, 170)
-        Me.MetroCheckBox4.Name = "MetroCheckBox4"
-        Me.MetroCheckBox4.Size = New System.Drawing.Size(145, 20)
-        Me.MetroCheckBox4.TabIndex = 0
-        Me.MetroCheckBox4.Text = "MetroCheckBox1"
-        Me.MetroCheckBox4.Theme = MetroFramework.MetroThemeStyle.Dark
-        Me.MetroCheckBox4.UseSelectable = True
+        Me.chbwebayarlari.AutoSize = True
+        Me.chbwebayarlari.FontSize = MetroFramework.MetroCheckBoxSize.Medium
+        Me.chbwebayarlari.Location = New System.Drawing.Point(12, 115)
+        Me.chbwebayarlari.Name = "chbwebayarlari"
+        Me.chbwebayarlari.Size = New System.Drawing.Size(176, 20)
+        Me.chbwebayarlari.TabIndex = 3
+        Me.chbwebayarlari.Text = "İnternet Ayarlarımı Yap"
+        Me.chbwebayarlari.Theme = MetroFramework.MetroThemeStyle.Dark
+        Me.chbwebayarlari.UseSelectable = True
         '
-        'MetroCheckBox5
+        'chbDnstemizle
         '
-        Me.MetroCheckBox5.AutoSize = True
-        Me.MetroCheckBox5.FontSize = MetroFramework.MetroCheckBoxSize.Medium
-        Me.MetroCheckBox5.FontWeight = MetroFramework.MetroCheckBoxWeight.Bold
-        Me.MetroCheckBox5.Location = New System.Drawing.Point(215, 92)
-        Me.MetroCheckBox5.Name = "MetroCheckBox5"
-        Me.MetroCheckBox5.Size = New System.Drawing.Size(145, 20)
-        Me.MetroCheckBox5.TabIndex = 0
-        Me.MetroCheckBox5.Text = "MetroCheckBox1"
-        Me.MetroCheckBox5.Theme = MetroFramework.MetroThemeStyle.Dark
-        Me.MetroCheckBox5.UseSelectable = True
+        Me.chbDnstemizle.AutoSize = True
+        Me.chbDnstemizle.FontSize = MetroFramework.MetroCheckBoxSize.Medium
+        Me.chbDnstemizle.Location = New System.Drawing.Point(255, 141)
+        Me.chbDnstemizle.Name = "chbDnstemizle"
+        Me.chbDnstemizle.Size = New System.Drawing.Size(110, 20)
+        Me.chbDnstemizle.TabIndex = 0
+        Me.chbDnstemizle.Text = "DNS Temizle"
+        Me.chbDnstemizle.Theme = MetroFramework.MetroThemeStyle.Dark
+        Me.chbDnstemizle.UseSelectable = True
         '
-        'MetroCheckBox6
+        'chbgereksizonbellek
         '
-        Me.MetroCheckBox6.AutoSize = True
-        Me.MetroCheckBox6.FontSize = MetroFramework.MetroCheckBoxSize.Medium
-        Me.MetroCheckBox6.FontWeight = MetroFramework.MetroCheckBoxWeight.Bold
-        Me.MetroCheckBox6.Location = New System.Drawing.Point(215, 118)
-        Me.MetroCheckBox6.Name = "MetroCheckBox6"
-        Me.MetroCheckBox6.Size = New System.Drawing.Size(145, 20)
-        Me.MetroCheckBox6.TabIndex = 0
-        Me.MetroCheckBox6.Text = "MetroCheckBox1"
-        Me.MetroCheckBox6.Theme = MetroFramework.MetroThemeStyle.Dark
-        Me.MetroCheckBox6.UseSelectable = True
+        Me.chbgereksizonbellek.AutoSize = True
+        Me.chbgereksizonbellek.FontSize = MetroFramework.MetroCheckBoxSize.Medium
+        Me.chbgereksizonbellek.Location = New System.Drawing.Point(255, 63)
+        Me.chbgereksizonbellek.Name = "chbgereksizonbellek"
+        Me.chbgereksizonbellek.Size = New System.Drawing.Size(202, 20)
+        Me.chbgereksizonbellek.TabIndex = 5
+        Me.chbgereksizonbellek.Text = "Gereksiz Ön Bellek Temizle"
+        Me.chbgereksizonbellek.Theme = MetroFramework.MetroThemeStyle.Dark
+        Me.chbgereksizonbellek.UseSelectable = True
         '
-        'MetroCheckBox7
+        'chbPerformansmod
         '
-        Me.MetroCheckBox7.AutoSize = True
-        Me.MetroCheckBox7.FontSize = MetroFramework.MetroCheckBoxSize.Medium
-        Me.MetroCheckBox7.FontWeight = MetroFramework.MetroCheckBoxWeight.Bold
-        Me.MetroCheckBox7.Location = New System.Drawing.Point(215, 144)
-        Me.MetroCheckBox7.Name = "MetroCheckBox7"
-        Me.MetroCheckBox7.Size = New System.Drawing.Size(145, 20)
-        Me.MetroCheckBox7.TabIndex = 0
-        Me.MetroCheckBox7.Text = "MetroCheckBox1"
-        Me.MetroCheckBox7.Theme = MetroFramework.MetroThemeStyle.Dark
-        Me.MetroCheckBox7.UseSelectable = True
+        Me.chbPerformansmod.AutoSize = True
+        Me.chbPerformansmod.FontSize = MetroFramework.MetroCheckBoxSize.Medium
+        Me.chbPerformansmod.Location = New System.Drawing.Point(255, 89)
+        Me.chbPerformansmod.Name = "chbPerformansmod"
+        Me.chbPerformansmod.Size = New System.Drawing.Size(217, 20)
+        Me.chbPerformansmod.TabIndex = 6
+        Me.chbPerformansmod.Text = "Ekran Kartı Performans Modu"
+        Me.chbPerformansmod.Theme = MetroFramework.MetroThemeStyle.Dark
+        Me.chbPerformansmod.UseSelectable = True
         '
-        'chkbox
+        'chbKucukEkran
         '
-        Me.chkbox.AutoSize = True
-        Me.chkbox.FontSize = MetroFramework.MetroCheckBoxSize.Medium
-        Me.chkbox.FontWeight = MetroFramework.MetroCheckBoxWeight.Bold
-        Me.chkbox.Location = New System.Drawing.Point(215, 170)
-        Me.chkbox.Name = "chkbox"
-        Me.chkbox.Size = New System.Drawing.Size(145, 20)
-        Me.chkbox.TabIndex = 0
-        Me.chkbox.Text = "MetroCheckBox1"
-        Me.chkbox.Theme = MetroFramework.MetroThemeStyle.Dark
-        Me.chkbox.UseSelectable = True
-        '
-        'tbOutput
-        '
-        '
-        '
-        '
-        Me.tbOutput.CustomButton.Image = Nothing
-        Me.tbOutput.CustomButton.Location = New System.Drawing.Point(528, 2)
-        Me.tbOutput.CustomButton.Name = ""
-        Me.tbOutput.CustomButton.Size = New System.Drawing.Size(21, 21)
-        Me.tbOutput.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
-        Me.tbOutput.CustomButton.TabIndex = 1
-        Me.tbOutput.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
-        Me.tbOutput.CustomButton.UseSelectable = True
-        Me.tbOutput.CustomButton.Visible = False
-        Me.tbOutput.Lines = New String() {"MetroTextBox1"}
-        Me.tbOutput.Location = New System.Drawing.Point(12, 254)
-        Me.tbOutput.MaxLength = 32767
-        Me.tbOutput.Name = "tbOutput"
-        Me.tbOutput.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.tbOutput.ScrollBars = System.Windows.Forms.ScrollBars.None
-        Me.tbOutput.SelectedText = ""
-        Me.tbOutput.SelectionLength = 0
-        Me.tbOutput.SelectionStart = 0
-        Me.tbOutput.ShortcutsEnabled = True
-        Me.tbOutput.Size = New System.Drawing.Size(552, 26)
-        Me.tbOutput.TabIndex = 1
-        Me.tbOutput.Text = "MetroTextBox1"
-        Me.tbOutput.UseSelectable = True
-        Me.tbOutput.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
-        Me.tbOutput.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
+        Me.chbKucukEkran.AutoSize = True
+        Me.chbKucukEkran.FontSize = MetroFramework.MetroCheckBoxSize.Medium
+        Me.chbKucukEkran.Location = New System.Drawing.Point(255, 115)
+        Me.chbKucukEkran.Name = "chbKucukEkran"
+        Me.chbKucukEkran.Size = New System.Drawing.Size(178, 20)
+        Me.chbKucukEkran.TabIndex = 7
+        Me.chbKucukEkran.Text = "Ekran Performans Ölçer"
+        Me.chbKucukEkran.Theme = MetroFramework.MetroThemeStyle.Dark
+        Me.chbKucukEkran.UseSelectable = True
         '
         'lbGames
         '
+        Me.lbGames.BackColor = System.Drawing.Color.FromArgb(CType(CType(18, Byte), Integer), CType(CType(18, Byte), Integer), CType(CType(18, Byte), Integer))
+        Me.lbGames.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.lbGames.ForeColor = System.Drawing.Color.White
         Me.lbGames.FormattingEnabled = True
         Me.lbGames.ItemHeight = 16
-        Me.lbGames.Location = New System.Drawing.Point(23, 342)
+        Me.lbGames.Items.AddRange(New Object() {"Counter-Strike: Global Offensive", "Playerunknown's Battlegrounds", "League of Legends", "Grand Theft Auto V", "Minecraft", "Fortnite", "Rust", "//Henüz oyunlarınız otomatik eklenmemektedir."})
+        Me.lbGames.Location = New System.Drawing.Point(12, 196)
         Me.lbGames.Name = "lbGames"
-        Me.lbGames.Size = New System.Drawing.Size(394, 116)
+        Me.lbGames.Size = New System.Drawing.Size(473, 144)
         Me.lbGames.TabIndex = 2
+        '
+        'DetayliTemizlik
+        '
+        '
+        'rtbNews
+        '
+        Me.rtbNews.BackColor = System.Drawing.Color.FromArgb(CType(CType(18, Byte), Integer), CType(CType(18, Byte), Integer), CType(CType(18, Byte), Integer))
+        Me.rtbNews.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.rtbNews.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.rtbNews.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.rtbNews.ForeColor = System.Drawing.Color.White
+        Me.rtbNews.Location = New System.Drawing.Point(20, 446)
+        Me.rtbNews.Name = "rtbNews"
+        Me.rtbNews.ReadOnly = True
+        Me.rtbNews.ShortcutsEnabled = False
+        Me.rtbNews.Size = New System.Drawing.Size(468, 102)
+        Me.rtbNews.TabIndex = 3
+        Me.rtbNews.Text = "İnternet Bağlantınızı Kontrol Ediniz.."
+        '
+        'tbOutput
+        '
+        Me.tbOutput.Location = New System.Drawing.Point(35, 357)
+        Me.tbOutput.Name = "tbOutput"
+        Me.tbOutput.Size = New System.Drawing.Size(382, 22)
+        Me.tbOutput.TabIndex = 4
+        Me.tbOutput.Visible = False
+        '
+        'btnTemizle
+        '
+        Me.btnTemizle.Location = New System.Drawing.Point(298, 346)
+        Me.btnTemizle.Name = "btnTemizle"
+        Me.btnTemizle.Size = New System.Drawing.Size(190, 39)
+        Me.btnTemizle.Style = MetroFramework.MetroColorStyle.Yellow
+        Me.btnTemizle.TabIndex = 5
+        Me.btnTemizle.Text = "Bilgisayarımı Temizle"
+        Me.btnTemizle.Theme = MetroFramework.MetroThemeStyle.Dark
+        Me.btnTemizle.UseSelectable = True
+        Me.btnTemizle.UseStyleColors = True
+        '
+        'webtariyicioptimize
+        '
+        '
+        'BtnOptimize
+        '
+        Me.BtnOptimize.Location = New System.Drawing.Point(211, 391)
+        Me.BtnOptimize.Name = "BtnOptimize"
+        Me.BtnOptimize.Size = New System.Drawing.Size(277, 39)
+        Me.BtnOptimize.Style = MetroFramework.MetroColorStyle.Yellow
+        Me.BtnOptimize.TabIndex = 5
+        Me.BtnOptimize.Text = "Optimize Edilecek Program/Oyun"
+        Me.BtnOptimize.Theme = MetroFramework.MetroThemeStyle.Dark
+        Me.BtnOptimize.UseSelectable = True
+        Me.BtnOptimize.UseStyleColors = True
+        '
+        'oyunekle
+        '
+        Me.oyunekle.FileName = "Eklemek istediginiz dosyayı seçin"
+        '
+        'LblBaslik
+        '
+        Me.LblBaslik.AutoSize = True
+        Me.LblBaslik.FontWeight = MetroFramework.MetroLabelWeight.Bold
+        Me.LblBaslik.Location = New System.Drawing.Point(12, 167)
+        Me.LblBaslik.Name = "LblBaslik"
+        Me.LblBaslik.Size = New System.Drawing.Size(94, 20)
+        Me.LblBaslik.Style = MetroFramework.MetroColorStyle.Yellow
+        Me.LblBaslik.TabIndex = 6
+        Me.LblBaslik.Text = "Oyun Listesi"
+        Me.LblBaslik.Theme = MetroFramework.MetroThemeStyle.Dark
+        Me.LblBaslik.UseStyleColors = True
+        '
+        'btnBaslat
+        '
+        Me.btnBaslat.Location = New System.Drawing.Point(12, 391)
+        Me.btnBaslat.Name = "btnBaslat"
+        Me.btnBaslat.Size = New System.Drawing.Size(190, 39)
+        Me.btnBaslat.Style = MetroFramework.MetroColorStyle.Yellow
+        Me.btnBaslat.TabIndex = 5
+        Me.btnBaslat.Text = "Oyunu Başlat"
+        Me.btnBaslat.Theme = MetroFramework.MetroThemeStyle.Dark
+        Me.btnBaslat.UseSelectable = True
+        Me.btnBaslat.UseStyleColors = True
+        '
+        'btnOptimizeEt
+        '
+        Me.btnOptimizeEt.Location = New System.Drawing.Point(12, 346)
+        Me.btnOptimizeEt.Name = "btnOptimizeEt"
+        Me.btnOptimizeEt.Size = New System.Drawing.Size(190, 39)
+        Me.btnOptimizeEt.Style = MetroFramework.MetroColorStyle.Yellow
+        Me.btnOptimizeEt.TabIndex = 5
+        Me.btnOptimizeEt.Text = "Oyunu Optimize Et"
+        Me.btnOptimizeEt.Theme = MetroFramework.MetroThemeStyle.Dark
+        Me.btnOptimizeEt.UseSelectable = True
+        Me.btnOptimizeEt.UseStyleColors = True
+        '
+        'internetvericekme
+        '
+        Me.internetvericekme.Enabled = True
+        Me.internetvericekme.Interval = 1000
         '
         'Main_Frm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(668, 529)
-        Me.Controls.Add(Me.lbGames)
+        Me.ClientSize = New System.Drawing.Size(508, 568)
+        Me.Controls.Add(Me.LblBaslik)
+        Me.Controls.Add(Me.BtnOptimize)
+        Me.Controls.Add(Me.btnOptimizeEt)
+        Me.Controls.Add(Me.btnBaslat)
+        Me.Controls.Add(Me.btnTemizle)
         Me.Controls.Add(Me.tbOutput)
-        Me.Controls.Add(Me.MetroCheckBox5)
-        Me.Controls.Add(Me.chkbox)
-        Me.Controls.Add(Me.MetroCheckBox4)
-        Me.Controls.Add(Me.MetroCheckBox7)
-        Me.Controls.Add(Me.MetroCheckBox3)
-        Me.Controls.Add(Me.MetroCheckBox6)
-        Me.Controls.Add(Me.MetroCheckBox2)
-        Me.Controls.Add(Me.MetroCheckBox1)
+        Me.Controls.Add(Me.rtbNews)
+        Me.Controls.Add(Me.lbGames)
+        Me.Controls.Add(Me.chbDnstemizle)
+        Me.Controls.Add(Me.chbKucukEkran)
+        Me.Controls.Add(Me.chbwebayarlari)
+        Me.Controls.Add(Me.chbPerformansmod)
+        Me.Controls.Add(Me.chbDetayliTemizlik)
+        Me.Controls.Add(Me.chbgereksizonbellek)
+        Me.Controls.Add(Me.chbWebtarayıcısı)
+        Me.Controls.Add(Me.ChbBestPerformence)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "Main_Frm"
-        Me.Text = "Main_Frm"
+        Me.Opacity = 0.8R
+        Me.Resizable = False
+        Me.Style = MetroFramework.MetroColorStyle.Yellow
+        Me.Text = "SLight PcOptimize"
+        Me.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center
         Me.Theme = MetroFramework.MetroThemeStyle.Dark
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents MetroCheckBox1 As MetroFramework.Controls.MetroCheckBox
-    Friend WithEvents MetroCheckBox2 As MetroFramework.Controls.MetroCheckBox
-    Friend WithEvents MetroCheckBox3 As MetroFramework.Controls.MetroCheckBox
-    Friend WithEvents MetroCheckBox4 As MetroFramework.Controls.MetroCheckBox
-    Friend WithEvents MetroCheckBox5 As MetroFramework.Controls.MetroCheckBox
-    Friend WithEvents MetroCheckBox6 As MetroFramework.Controls.MetroCheckBox
-    Friend WithEvents MetroCheckBox7 As MetroFramework.Controls.MetroCheckBox
-    Friend WithEvents chkbox As MetroFramework.Controls.MetroCheckBox
-    Friend WithEvents tbOutput As MetroFramework.Controls.MetroTextBox
+    Friend WithEvents ChbBestPerformence As MetroFramework.Controls.MetroCheckBox
+    Friend WithEvents chbWebtarayıcısı As MetroFramework.Controls.MetroCheckBox
+    Friend WithEvents chbDetayliTemizlik As MetroFramework.Controls.MetroCheckBox
+    Friend WithEvents chbwebayarlari As MetroFramework.Controls.MetroCheckBox
+    Friend WithEvents chbDnstemizle As MetroFramework.Controls.MetroCheckBox
+    Friend WithEvents chbgereksizonbellek As MetroFramework.Controls.MetroCheckBox
+    Friend WithEvents chbPerformansmod As MetroFramework.Controls.MetroCheckBox
+    Friend WithEvents chbKucukEkran As MetroFramework.Controls.MetroCheckBox
     Friend WithEvents lbGames As ListBox
+    Friend WithEvents DetayliTemizlik As Timer
+    Friend WithEvents rtbNews As RichTextBox
+    Friend WithEvents tbOutput As TextBox
+    Friend WithEvents btnTemizle As MetroFramework.Controls.MetroButton
+    Friend WithEvents webtariyicioptimize As Timer
+    Friend WithEvents BtnOptimize As MetroFramework.Controls.MetroButton
+    Friend WithEvents oyunekle As OpenFileDialog
+    Friend WithEvents LblBaslik As MetroFramework.Controls.MetroLabel
+    Friend WithEvents btnBaslat As MetroFramework.Controls.MetroButton
+    Friend WithEvents btnOptimizeEt As MetroFramework.Controls.MetroButton
+    Friend WithEvents internetvericekme As Timer
 End Class
