@@ -108,6 +108,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Ayarlar.Designer.vb">
+      <DependentUpon>Ayarlar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ayarlar.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="EkranPerformans.Designer.vb">
       <DependentUpon>EkranPerformans.vb</DependentUpon>
     </Compile>
@@ -137,6 +143,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Ayarlar.resx">
+      <DependentUpon>Ayarlar.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EkranPerformans.resx">
       <DependentUpon>EkranPerformans.vb</DependentUpon>
     </EmbeddedResource>

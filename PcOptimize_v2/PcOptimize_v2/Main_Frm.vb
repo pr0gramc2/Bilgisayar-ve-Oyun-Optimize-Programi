@@ -328,11 +328,12 @@ Public Class Main_Frm
 
         End Try
     End Sub
-    Private Async Sub internetvericekme_Tick(sender As Object, e As EventArgs) Handles internetvericekme.Tick
+    Private Async Sub İnternetvericekme_Tick(sender As Object, e As EventArgs) Handles internetvericekme.Tick
         Try
+
             If My.Computer.Network.IsAvailable = True Then
-                Dim adres = ""
-                rtbNews.Text = adres
+                Dim indirilen = Await DownloadAsync("https://www.dropbox.com/s/litiewnpc6q8tuw/Haberler.txt?dl=1")
+                rtbNews.Text = indirilen
                 internetvericekme.Enabled = False
             Else
                 internetvericekme.Enabled = False
@@ -340,5 +341,74 @@ Public Class Main_Frm
         Catch ex As Exception
 
         End Try
+    End Sub
+    Private Async Function DownloadAsync(ByVal url As String) As Task(Of String)
+        Dim client As WebClient = New WebClient()
+        Dim indirilen = Await client.DownloadStringTaskAsync(New Uri(url))
+        Return indirilen
+    End Function
+
+    Private Sub btnBaslat_Click(sender As Object, e As EventArgs) Handles btnBaslat.Click
+        If lbGames.SelectedIndex = 0 Then
+            Dim s As New Process
+            s.StartInfo.FileName = "steam://rungameid/730"
+            s.StartInfo.Arguments = "-malloc=system -USEALLAVAILABLECORES -high"
+            s.Start()
+            s.PriorityClass = ProcessPriorityClass.High
+        End If
+        If lbGames.SelectedIndex = 1 Then
+            Dim s As New Process
+            s.StartInfo.FileName = "steam://rungameid/578080"
+            s.StartInfo.Arguments = "-malloc=system -USEALLAVAILABLECORES -high"
+            s.Start()
+            s.PriorityClass = ProcessPriorityClass.High
+        End If
+        If lbGames.SelectedIndex = 2 Then
+
+        End If
+        If lbGames.SelectedIndex = 3 Then
+            Dim s As Process = New Process()
+            s.StartInfo.FileName = "steam://rungameid/271590"
+            s.StartInfo.Arguments = "-malloc=system -USEALLAVAILABLECORES -high"
+        End If
+        If lbGames.SelectedIndex = 4 Then
+            Dim s As Process = New Process()
+            s.StartInfo.FileName = "steam://rungameid/376870"
+            s.StartInfo.Arguments = "-malloc=system -USEALLAVAILABLECORES -high"
+        End If
+        If lbGames.SelectedIndex = 5 Then
+            Dim s As Process = New Process()
+            s.StartInfo.FileName = "steam://rungameid/730"
+            s.StartInfo.Arguments = "-malloc=system -USEALLAVAILABLECORES -high"
+        End If
+        If lbGames.SelectedIndex = 6 Then
+            Dim s As Process = New Process()
+            s.StartInfo.FileName = "steam://rungameid/252490"
+            s.StartInfo.Arguments = "-malloc=system -USEALLAVAILABLECORES -high"
+        End If
+        If lbGames.SelectedIndex = 7 Then
+            Dim s As Process = New Process()
+            s.StartInfo.FileName = "steam://rungameid/433850"
+            s.StartInfo.Arguments = "-malloc=system -USEALLAVAILABLECORES -high"
+        End If
+    End Sub
+
+    Private Sub btnOptimizeEt_Click(sender As Object, e As EventArgs) Handles btnOptimizeEt.Click
+        Try
+            GC.Collect()
+            GC.WaitForPendingFinalizers()
+            If (Environment.OSVersion.Platform = PlatformID.Win32NT) Then
+                SetProcessWorkingSetSize(Process.GetCurrentProcess().Handle, -1, -1)
+                Dim myprocesses As Process() = Process.GetProcessesByName("TslGame")
+
+                Dim myprocess As Process
+                For Each myprocess In myprocesses
+                    SetProcessWorkingSetSize(myprocess.Handle, -1, -1)
+                Next myprocess
+            End If
+        Catch ex As Exception
+
+        End Try
+
     End Sub
 End Class

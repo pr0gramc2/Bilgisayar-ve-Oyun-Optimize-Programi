@@ -43,13 +43,14 @@ Partial Class Main_Frm
         Me.btnBaslat = New MetroFramework.Controls.MetroButton()
         Me.btnOptimizeEt = New MetroFramework.Controls.MetroButton()
         Me.internetvericekme = New System.Windows.Forms.Timer(Me.components)
+        Me.btnAyarlar = New MetroFramework.Controls.MetroButton()
         Me.SuspendLayout()
         '
         'ChbBestPerformence
         '
         Me.ChbBestPerformence.AutoSize = True
         Me.ChbBestPerformence.FontSize = MetroFramework.MetroCheckBoxSize.Medium
-        Me.ChbBestPerformence.Location = New System.Drawing.Point(12, 63)
+        Me.ChbBestPerformence.Location = New System.Drawing.Point(17, 94)
         Me.ChbBestPerformence.Name = "ChbBestPerformence"
         Me.ChbBestPerformence.Size = New System.Drawing.Size(200, 20)
         Me.ChbBestPerformence.TabIndex = 1
@@ -61,7 +62,7 @@ Partial Class Main_Frm
         '
         Me.chbWebtarayıcısı.AutoSize = True
         Me.chbWebtarayıcısı.FontSize = MetroFramework.MetroCheckBoxSize.Medium
-        Me.chbWebtarayıcısı.Location = New System.Drawing.Point(12, 89)
+        Me.chbWebtarayıcısı.Location = New System.Drawing.Point(17, 120)
         Me.chbWebtarayıcısı.Name = "chbWebtarayıcısı"
         Me.chbWebtarayıcısı.Size = New System.Drawing.Size(212, 20)
         Me.chbWebtarayıcısı.TabIndex = 2
@@ -73,7 +74,7 @@ Partial Class Main_Frm
         '
         Me.chbDetayliTemizlik.AutoSize = True
         Me.chbDetayliTemizlik.FontSize = MetroFramework.MetroCheckBoxSize.Medium
-        Me.chbDetayliTemizlik.Location = New System.Drawing.Point(12, 141)
+        Me.chbDetayliTemizlik.Location = New System.Drawing.Point(17, 172)
         Me.chbDetayliTemizlik.Name = "chbDetayliTemizlik"
         Me.chbDetayliTemizlik.Size = New System.Drawing.Size(127, 20)
         Me.chbDetayliTemizlik.TabIndex = 4
@@ -85,7 +86,7 @@ Partial Class Main_Frm
         '
         Me.chbwebayarlari.AutoSize = True
         Me.chbwebayarlari.FontSize = MetroFramework.MetroCheckBoxSize.Medium
-        Me.chbwebayarlari.Location = New System.Drawing.Point(12, 115)
+        Me.chbwebayarlari.Location = New System.Drawing.Point(17, 146)
         Me.chbwebayarlari.Name = "chbwebayarlari"
         Me.chbwebayarlari.Size = New System.Drawing.Size(176, 20)
         Me.chbwebayarlari.TabIndex = 3
@@ -97,7 +98,7 @@ Partial Class Main_Frm
         '
         Me.chbDnstemizle.AutoSize = True
         Me.chbDnstemizle.FontSize = MetroFramework.MetroCheckBoxSize.Medium
-        Me.chbDnstemizle.Location = New System.Drawing.Point(255, 141)
+        Me.chbDnstemizle.Location = New System.Drawing.Point(260, 172)
         Me.chbDnstemizle.Name = "chbDnstemizle"
         Me.chbDnstemizle.Size = New System.Drawing.Size(110, 20)
         Me.chbDnstemizle.TabIndex = 0
@@ -109,7 +110,7 @@ Partial Class Main_Frm
         '
         Me.chbgereksizonbellek.AutoSize = True
         Me.chbgereksizonbellek.FontSize = MetroFramework.MetroCheckBoxSize.Medium
-        Me.chbgereksizonbellek.Location = New System.Drawing.Point(255, 63)
+        Me.chbgereksizonbellek.Location = New System.Drawing.Point(260, 94)
         Me.chbgereksizonbellek.Name = "chbgereksizonbellek"
         Me.chbgereksizonbellek.Size = New System.Drawing.Size(202, 20)
         Me.chbgereksizonbellek.TabIndex = 5
@@ -121,7 +122,7 @@ Partial Class Main_Frm
         '
         Me.chbPerformansmod.AutoSize = True
         Me.chbPerformansmod.FontSize = MetroFramework.MetroCheckBoxSize.Medium
-        Me.chbPerformansmod.Location = New System.Drawing.Point(255, 89)
+        Me.chbPerformansmod.Location = New System.Drawing.Point(260, 120)
         Me.chbPerformansmod.Name = "chbPerformansmod"
         Me.chbPerformansmod.Size = New System.Drawing.Size(217, 20)
         Me.chbPerformansmod.TabIndex = 6
@@ -133,7 +134,7 @@ Partial Class Main_Frm
         '
         Me.chbKucukEkran.AutoSize = True
         Me.chbKucukEkran.FontSize = MetroFramework.MetroCheckBoxSize.Medium
-        Me.chbKucukEkran.Location = New System.Drawing.Point(255, 115)
+        Me.chbKucukEkran.Location = New System.Drawing.Point(260, 146)
         Me.chbKucukEkran.Name = "chbKucukEkran"
         Me.chbKucukEkran.Size = New System.Drawing.Size(178, 20)
         Me.chbKucukEkran.TabIndex = 7
@@ -148,8 +149,8 @@ Partial Class Main_Frm
         Me.lbGames.ForeColor = System.Drawing.Color.White
         Me.lbGames.FormattingEnabled = True
         Me.lbGames.ItemHeight = 16
-        Me.lbGames.Items.AddRange(New Object() {"Counter-Strike: Global Offensive", "Playerunknown's Battlegrounds", "League of Legends", "Grand Theft Auto V", "Minecraft", "Fortnite", "Rust", "//Henüz oyunlarınız otomatik eklenmemektedir."})
-        Me.lbGames.Location = New System.Drawing.Point(12, 196)
+        Me.lbGames.Items.AddRange(New Object() {"Counter-Strike: Global Offensive", "Playerunknown's Battlegrounds", "League of Legends", "Grand Theft Auto V", "Minecraft", "Fortnite", "Rust", "H1Z1", "//Henüz oyunlarınız otomatik eklenmemektedir."})
+        Me.lbGames.Location = New System.Drawing.Point(12, 225)
         Me.lbGames.Name = "lbGames"
         Me.lbGames.Size = New System.Drawing.Size(473, 144)
         Me.lbGames.TabIndex = 2
@@ -164,7 +165,7 @@ Partial Class Main_Frm
         Me.rtbNews.Cursor = System.Windows.Forms.Cursors.Hand
         Me.rtbNews.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.rtbNews.ForeColor = System.Drawing.Color.White
-        Me.rtbNews.Location = New System.Drawing.Point(20, 446)
+        Me.rtbNews.Location = New System.Drawing.Point(20, 462)
         Me.rtbNews.Name = "rtbNews"
         Me.rtbNews.ReadOnly = True
         Me.rtbNews.ShortcutsEnabled = False
@@ -174,17 +175,17 @@ Partial Class Main_Frm
         '
         'tbOutput
         '
-        Me.tbOutput.Location = New System.Drawing.Point(35, 357)
+        Me.tbOutput.Location = New System.Drawing.Point(112, 194)
         Me.tbOutput.Name = "tbOutput"
-        Me.tbOutput.Size = New System.Drawing.Size(382, 22)
+        Me.tbOutput.Size = New System.Drawing.Size(24, 22)
         Me.tbOutput.TabIndex = 4
         Me.tbOutput.Visible = False
         '
         'btnTemizle
         '
-        Me.btnTemizle.Location = New System.Drawing.Point(298, 346)
+        Me.btnTemizle.Location = New System.Drawing.Point(167, 375)
         Me.btnTemizle.Name = "btnTemizle"
-        Me.btnTemizle.Size = New System.Drawing.Size(190, 39)
+        Me.btnTemizle.Size = New System.Drawing.Size(167, 39)
         Me.btnTemizle.Style = MetroFramework.MetroColorStyle.Yellow
         Me.btnTemizle.TabIndex = 5
         Me.btnTemizle.Text = "Bilgisayarımı Temizle"
@@ -197,9 +198,9 @@ Partial Class Main_Frm
         '
         'BtnOptimize
         '
-        Me.BtnOptimize.Location = New System.Drawing.Point(211, 391)
+        Me.BtnOptimize.Location = New System.Drawing.Point(167, 417)
         Me.BtnOptimize.Name = "BtnOptimize"
-        Me.BtnOptimize.Size = New System.Drawing.Size(277, 39)
+        Me.BtnOptimize.Size = New System.Drawing.Size(321, 39)
         Me.BtnOptimize.Style = MetroFramework.MetroColorStyle.Yellow
         Me.BtnOptimize.TabIndex = 5
         Me.BtnOptimize.Text = "Optimize Edilecek Program/Oyun"
@@ -215,7 +216,7 @@ Partial Class Main_Frm
         '
         Me.LblBaslik.AutoSize = True
         Me.LblBaslik.FontWeight = MetroFramework.MetroLabelWeight.Bold
-        Me.LblBaslik.Location = New System.Drawing.Point(12, 167)
+        Me.LblBaslik.Location = New System.Drawing.Point(12, 196)
         Me.LblBaslik.Name = "LblBaslik"
         Me.LblBaslik.Size = New System.Drawing.Size(94, 20)
         Me.LblBaslik.Style = MetroFramework.MetroColorStyle.Yellow
@@ -226,9 +227,9 @@ Partial Class Main_Frm
         '
         'btnBaslat
         '
-        Me.btnBaslat.Location = New System.Drawing.Point(12, 391)
+        Me.btnBaslat.Location = New System.Drawing.Point(12, 417)
         Me.btnBaslat.Name = "btnBaslat"
-        Me.btnBaslat.Size = New System.Drawing.Size(190, 39)
+        Me.btnBaslat.Size = New System.Drawing.Size(149, 39)
         Me.btnBaslat.Style = MetroFramework.MetroColorStyle.Yellow
         Me.btnBaslat.TabIndex = 5
         Me.btnBaslat.Text = "Oyunu Başlat"
@@ -238,9 +239,9 @@ Partial Class Main_Frm
         '
         'btnOptimizeEt
         '
-        Me.btnOptimizeEt.Location = New System.Drawing.Point(12, 346)
+        Me.btnOptimizeEt.Location = New System.Drawing.Point(12, 372)
         Me.btnOptimizeEt.Name = "btnOptimizeEt"
-        Me.btnOptimizeEt.Size = New System.Drawing.Size(190, 39)
+        Me.btnOptimizeEt.Size = New System.Drawing.Size(149, 39)
         Me.btnOptimizeEt.Style = MetroFramework.MetroColorStyle.Yellow
         Me.btnOptimizeEt.TabIndex = 5
         Me.btnOptimizeEt.Text = "Oyunu Optimize Et"
@@ -253,15 +254,28 @@ Partial Class Main_Frm
         Me.internetvericekme.Enabled = True
         Me.internetvericekme.Interval = 1000
         '
+        'btnAyarlar
+        '
+        Me.btnAyarlar.Location = New System.Drawing.Point(340, 375)
+        Me.btnAyarlar.Name = "btnAyarlar"
+        Me.btnAyarlar.Size = New System.Drawing.Size(148, 39)
+        Me.btnAyarlar.Style = MetroFramework.MetroColorStyle.Yellow
+        Me.btnAyarlar.TabIndex = 5
+        Me.btnAyarlar.Text = "Ayarlar"
+        Me.btnAyarlar.Theme = MetroFramework.MetroThemeStyle.Dark
+        Me.btnAyarlar.UseSelectable = True
+        Me.btnAyarlar.UseStyleColors = True
+        '
         'Main_Frm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(508, 568)
+        Me.ClientSize = New System.Drawing.Size(508, 584)
         Me.Controls.Add(Me.LblBaslik)
         Me.Controls.Add(Me.BtnOptimize)
         Me.Controls.Add(Me.btnOptimizeEt)
         Me.Controls.Add(Me.btnBaslat)
+        Me.Controls.Add(Me.btnAyarlar)
         Me.Controls.Add(Me.btnTemizle)
         Me.Controls.Add(Me.tbOutput)
         Me.Controls.Add(Me.rtbNews)
@@ -308,4 +322,5 @@ Partial Class Main_Frm
     Friend WithEvents btnBaslat As MetroFramework.Controls.MetroButton
     Friend WithEvents btnOptimizeEt As MetroFramework.Controls.MetroButton
     Friend WithEvents internetvericekme As Timer
+    Friend WithEvents btnAyarlar As MetroFramework.Controls.MetroButton
 End Class
